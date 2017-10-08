@@ -7,3 +7,7 @@ The file contains two primary parts: endpoints and parameters. Endpoints general
 The simplest and probably easiest implementation is to map each endpoint to a function accepting a single argument, that being a hash of `{parameter: value}`. To provide some examples in code, the `examples` folder contains three very, very simple client implementations, in Python, Ruby, and Go. The Python and Ruby examples are implemented pretty much the same way, and are certainly not idiomatic in the language, but should illustrate the general idea. For languages without highly dynamic reflection features, code generation might be used to create a client. The Go example illustrates how that might work -- using Go to generate a Go file.
 
 A full-featured Node.js client based on this template can be seen at [bttmly/nba](https://github.com/bttmly/nba).
+
+# Java Client.
+
+I plan to use this file to created a generated Java Client using the codeModels library. All code will be generated, so any updates to the JSON file will be reflected following the next build.
