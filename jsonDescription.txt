@@ -1,0 +1,10 @@
+string user_agent
+string referrer
+array of endPoint Objects
+    string name
+    string url
+    string[] allowableParameters
+array of parameterValues
+    string name
+    string defaultValue
+    string[] values
